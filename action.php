@@ -21,7 +21,7 @@ class action_plugin_feedmod extends DokuWiki_Action_Plugin {
 
     function getInfo() {
         return array(
-                'author' => 'Gina Häußge, Michael Klier',
+                'author' => 'Gina Häußge, Michael Klier, Rainer Kaufmann',
                 'email'  => 'chi@chimeric.de',
                 'date'   => @file_get_contents(DOKU_PLUGIN.'feedmod/VERSION'),
                 'name'   => 'feedmod',
